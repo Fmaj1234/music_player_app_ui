@@ -1,16 +1,14 @@
 # music_player_app_ui
 
-A new Flutter project.
+A preview of the app
 
-## Getting Started
+https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/5872cad3-f876-4f2a-85e3-d08738dffb19
 
-This project is a starting point for a Flutter application.
+![Screenshot_20230726-181912_iphone13blue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/e0e5dae4-582c-4f0d-933c-36eee17d4dba)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_20230726-181921_iphone13blue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/f9ee2cb8-b667-4ad7-8575-fa7e705e1ccb)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot_20230726-181930 (1)_iphone13midnight_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/fd8eda34-58c0-4037-a419-4a28fbbed82d)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20230726-182009_iphone13midnight_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/ae9fb7fc-298c-43f8-a311-d6b542d3ba4e)
+
