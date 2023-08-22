@@ -2,13 +2,13 @@
 
 A preview of the app
 
-https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/5872cad3-f876-4f2a-85e3-d08738dffb19
+https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/8581836a-7504-400d-8a03-faa161f60298
 
-![Screenshot_20230726-181912_iphone13blue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/e0e5dae4-582c-4f0d-933c-36eee17d4dba)
+![Screenshot_20230821-220646_iphone13blue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/cff5e7d7-2581-4e16-89b4-8eb6327c8efd)
 
-![Screenshot_20230726-181921_iphone13blue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/f9ee2cb8-b667-4ad7-8575-fa7e705e1ccb)
+![Screenshot_20230821-220657_iphone13blue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/7c05f24d-95a2-42dd-9e49-cefd0cc26953)
 
-![Screenshot_20230726-181930 (1)_iphone13midnight_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/fd8eda34-58c0-4037-a419-4a28fbbed82d)
+![Screenshot_20230821-160944_iphone13miniblue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/cf27ece4-5aac-420f-8f57-b75bdd3e9613)
 
-![Screenshot_20230726-182009_iphone13midnight_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/ae9fb7fc-298c-43f8-a311-d6b542d3ba4e)
+![Screenshot_20230821-160957_iphone13miniblue_portrait](https://github.com/Fmaj1234/music_player_app_ui/assets/49940296/73a61ad2-f384-4ce8-930b-6ad467e436ef)
 

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class MusicPage extends StatelessWidget {
   @override
@@ -75,21 +76,31 @@ class MusicPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  "Imagine Dragons",
+                                  "Hypnotize",
                                   style: TextStyle(
                                     color: Colors.white.withOpacity(0.9),
                                     fontSize: 24,
                                     fontWeight: FontWeight.bold,
                                   ),
-                                ),
+                                )
+                                    .animate()
+                                    .fade(
+                                        duration:
+                                            const Duration(milliseconds: 600))
+                                    .slideX(),
                                 SizedBox(height: 10),
                                 Text(
-                                  "ISinger Name",
+                                  "Biggie Smalls",
                                   style: TextStyle(
                                     color: Colors.white.withOpacity(0.8),
                                     fontSize: 18,
                                   ),
-                                ),
+                                )
+                                    .animate()
+                                    .fade(
+                                        duration:
+                                            const Duration(milliseconds: 800))
+                                    .slideX(),
                               ],
                             ),
                             Icon(
@@ -135,7 +146,9 @@ class MusicPage extends StatelessWidget {
                             ),
                           ),
                         ],
-                      ),
+                      )
+                          .animate()
+                          .fade(duration: const Duration(milliseconds: 800)),
                       SizedBox(height: 30),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -174,7 +187,15 @@ class MusicPage extends StatelessWidget {
                             size: 30,
                           ),
                         ],
-                      ),
+                      )
+                          .animate(delay: const Duration(milliseconds: 500))
+                          .slideY(
+                            begin: 1,
+                            duration: const Duration(
+                              milliseconds: 600,
+                            ),
+                            curve: Curves.fastLinearToSlowEaseIn,
+                          ),
                     ],
                   ),
                 ),

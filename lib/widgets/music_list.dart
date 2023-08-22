@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class MusicList extends StatelessWidget {
   @override
@@ -34,7 +35,7 @@ class MusicList extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Imagine Dragons - Behaviour",
+                          "Sky's the Limit - Biggie Smalls",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 17,
@@ -87,7 +88,11 @@ class MusicList extends StatelessWidget {
                   ),
                 ],
               ),
-            ),
+            ).animate()
+                  .fadeIn(
+                    delay: Duration(milliseconds: 200 * i),
+                  )
+                  .slideX(),
         ],
       ),
     );

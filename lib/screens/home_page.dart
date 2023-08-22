@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:music_player_app_ui/widgets/music_list.dart';
 import 'package:music_player_app_ui/widgets/play_list.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -54,7 +55,7 @@ class HomePage extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.only(bottom: 5),
                     child: Text(
-                      "Hello Sir",
+                      "Hello dear",
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.9),
                         fontSize: 28,
@@ -62,17 +63,29 @@ class HomePage extends StatelessWidget {
                         letterSpacing: 1,
                       ),
                     ),
-                  ),
+                  ).animate(
+                      delay: const Duration(milliseconds: 600),
+                    )
+                    .fade(
+                      duration: const Duration(milliseconds: 600),
+                    )
+                    .slideX(),
                   Padding(
                     padding: EdgeInsets.only(bottom: 5),
                     child: Text(
-                      "What you want to hear sir?",
+                      "What do you want to hear?",
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.5),
                         fontSize: 16,
                       ),
                     ),
-                  ),
+                  ).animate(
+                      delay: const Duration(milliseconds: 800),
+                    )
+                    .fade(
+                      duration: const Duration(milliseconds: 800),
+                    )
+                    .slideX(),
                   Padding(
                     padding: EdgeInsets.only(top: 15, right: 20, bottom: 20),
                     child: Container(

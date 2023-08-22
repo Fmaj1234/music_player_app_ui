@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class PlayListPage extends StatelessWidget {
   @override
@@ -56,26 +57,44 @@ class PlayListPage extends StatelessWidget {
                     height: 260,
                     fit: BoxFit.cover,
                   ),
-                ),
+                )
+                    .animate()
+                    .slideY(
+                        begin: 10,
+                        duration: const Duration(
+                          milliseconds: 800,
+                        ),
+                        curve: Curves.easeOut)
+                    .fadeIn(
+                      begin: 0.1,
+                      delay: const Duration(milliseconds: 600),
+                    )
+                    .moveX(end: 0),
                 SizedBox(height: 20),
                 Column(
                   children: [
                     Text(
-                      "Imagine Dragons",
+                      "Sky's the Limit",
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.9),
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
                       ),
-                    ),
+                    )
+                        .animate()
+                        .fade(duration: const Duration(milliseconds: 600))
+                        .slideX(),
                     SizedBox(height: 8),
                     Text(
-                      "Singer Name",
+                      "Biggie Smalls",
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.8),
                         fontSize: 18,
                       ),
-                    ),
+                    )
+                        .animate()
+                        .fade(duration: const Duration(milliseconds: 800))
+                        .slideX(),
                   ],
                 ),
                 SizedBox(height: 30),
@@ -143,7 +162,7 @@ class PlayListPage extends StatelessWidget {
                       ),
                     ),
                   ],
-                ),
+                ).animate().fade(duration: const Duration(milliseconds: 800)),
                 SizedBox(height: 20),
                 for (int i = 1; i < 20; i++)
                   Container(
@@ -172,7 +191,7 @@ class PlayListPage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Imagine Dragons - Behaviour",
+                                "Sky's the Limit - Biggie Smalls",
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -182,7 +201,7 @@ class PlayListPage extends StatelessWidget {
                               Row(
                                 children: [
                                   Text(
-                                    "Bass",
+                                    "Rap",
                                     style: TextStyle(
                                       color: Colors.white.withOpacity(0.8),
                                       fontSize: 16,
@@ -225,7 +244,12 @@ class PlayListPage extends StatelessWidget {
                         ),
                       ],
                     ),
-                  ),
+                  )
+                      .animate()
+                      .fadeIn(
+                        delay: Duration(milliseconds: 200 * i),
+                      )
+                      .scale(),
               ],
             ),
           ),
